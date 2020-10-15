@@ -25,11 +25,11 @@ int main(int argc, char* argv[]) {
 		//modifications to find square root of negative numbers have been added
 	}
 	if(input<0){
-		printf("DEBUG : Sqrt of %d is %fi\n",input,sqrt(-input));
+		printf("NEG : Sqrt of %d is %fi\n",input,sqrt(-input));
 	}
 	else
-	printf("DEBUG : Sqrt of %d is %f\n",input,sqrt(input));
-	printf("DEBUG : End of program...Exiting...\n");
+	printf("NEG : Sqrt of %d is %f\n",input,sqrt(input));
+	printf("NEG : End of program...Exiting...\n");
 	return(0);
 
 } // end main
