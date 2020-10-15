@@ -20,8 +20,12 @@ int main(int argc, char* argv[]) {
 	int input;
 	scanf("%d",&input);
 	*/
+	if(input<0) {
+		printf("can't find square root of negative number\n");
+	}
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
 	printf("End of program...Exiting...\n");
 	return(0);
 
 } // end main
+
