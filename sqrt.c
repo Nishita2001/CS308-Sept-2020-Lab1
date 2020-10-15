@@ -5,6 +5,9 @@ positive number. */
 #include <stdlib.h>
 #include <math.h>
 
+//tested on Dev-C++ 5.11 on windows machine
+//remove the comments to use scanf statement
+
 int main(int argc, char* argv[]) {
 	
 	if (argc > 2) {
