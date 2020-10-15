@@ -15,14 +15,19 @@ int main(int argc, char* argv[]) {
 		exit(-1);
 	}
 
-	int input = atoi(argv[0]);
-	/*
+	//int input = atoi(argv[0]);
+	
 	int input;
 	scanf("%d",&input);
-	*/
+	
 	if(input<0) {
-		printf("can't find square root of negative number\n");
+		//printf("can't find square root of negative number\n");
+		//modifications to find square root of negative numbers have been added
 	}
+	if(input<0){
+		printf("Sqrt of %d is %fi\n",input,sqrt(-input));
+	}
+	else
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
 	printf("End of program...Exiting...\n");
 	return(0);
